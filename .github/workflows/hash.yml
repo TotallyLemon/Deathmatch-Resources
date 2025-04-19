@@ -5,6 +5,7 @@ on:
     types: [created]
 jobs:
   generate:
+    runs-on: ubuntu-latest
     steps:
     - name: Generate Release Hashes
       uses: MCJack123/ghaction-Generate-Release-Hashes@v4
