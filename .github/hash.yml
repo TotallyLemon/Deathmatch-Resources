@@ -1,0 +1,13 @@
+name: Sha1 Generator
+
+on: 
+  release:
+    types: [created]
+jobs:
+  generate:
+    steps:
+    - name: Generate Release Hashes
+      uses: MCJack123/ghaction-Generate-Release-Hashes@v4
+      with:
+        hash-type: sha1
+        file-name: hashes.txt
