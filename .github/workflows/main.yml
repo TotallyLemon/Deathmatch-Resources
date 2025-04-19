@@ -28,10 +28,19 @@ jobs:
           pack_directory = '.'
           output_file_path = '/tmp/Deathmatch Resources.zip'
 
+    - name: Generate Release Hashes
+      uses: MCJack123/ghaction-Generate-Release-Hashes@v4
+      with:
+        hash-type: sha1
+        file-name: resource-pack-sha1.txt
+
     - name: Create release
       uses: softprops/action-gh-release@v2
       with:
         token: ${{ secrets.RESOURCE_ZIPPER }}
         tag_name: release-${{ github.sha }}
         name: Release ${{ github.sha }}
-        files: /tmp/Deathmatch Resources.zip
+        files: |
+          /tmp/Deathmatch Resources.zip
+          resource-pack-sha1.txt
+          
