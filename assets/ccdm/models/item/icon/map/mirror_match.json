@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ccdm:item/icon/map/mirror_match"
+  },
+  "gui_light": "front"
+}

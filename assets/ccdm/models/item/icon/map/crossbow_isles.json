@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ccdm:item/icon/map/crossbow_isles"
+  },
+  "gui_light": "front"
+}

@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "cooldown",
+    "fallback": {
+      "type": "model",
+      "model": "item/pumpkin_pie"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "item/pumpkin_pie"
+        },
+        "threshold": 0
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/cheese_ultima"
+        },
+        "threshold": 0.001
+      }
+    ]
+  }
+}

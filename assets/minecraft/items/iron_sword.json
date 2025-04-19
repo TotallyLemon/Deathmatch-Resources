@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "model",
+    "model": "item/iron_sword",
+    "tints": [
+      {
+        "type": "custom_model_data",
+        "default": -1
+      }
+    ]
+  }
+}

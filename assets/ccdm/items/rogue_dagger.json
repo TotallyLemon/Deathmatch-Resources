@@ -1,0 +1,29 @@
+{
+  "model": {
+    "type": "condition",
+    "property": "custom_model_data",
+    "on_false": {
+      "type": "model",
+      "model": "item/stone_sword"
+    },
+    "on_true": {
+      "type": "select",
+      "property": "display_context",
+      "fallback": {
+        "type": "model",
+        "model": "item/stone_sword"
+      },
+      "cases": [
+        {
+          "when": [
+            "thirdperson_righthand",
+            "thirdperson_lefthand"
+          ],
+          "model": {
+            "type": "empty"
+          }
+        }
+      ]
+    }
+  }
+}

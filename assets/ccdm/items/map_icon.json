@@ -1,0 +1,295 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/filled_map",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -1
+        },
+        {
+          "type": "minecraft:map_color",
+          "default": 4603950
+        }
+      ]
+    },
+    "cases": [
+      {
+        "when": "boxing_arena",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/boxing_arena"
+        }
+      },
+      {
+        "when": "candlelight_library!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/candlelight_library"
+        }
+      },
+      {
+        "when": "candyland",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/candyland"
+        }
+      },
+      {
+        "when": "cargo_port",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/cargo_port"
+        }
+      },
+      {
+        "when": "cherry_fort",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/cherry_fort"
+        }
+      },
+      {
+        "when": "chess_towers",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/chess_towers"
+        }
+      },
+      {
+        "when": "crimson_folley!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/crimson_folley"
+        }
+      },
+      {
+        "when": "crossbow_isles!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/crossbow_isles"
+        }
+      },
+      {
+        "when": "crystal_cavern",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/crystal_cavern"
+        }
+      },
+      {
+        "when": "deepslate_compound!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/deepslate_compound"
+        }
+      },
+      {
+        "when": "doomspires!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/doomspires"
+        }
+      },
+      {
+        "when": "dripstone_chasm",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/dripstone_chasm"
+        }
+      },
+      {
+        "when": "flaming_desert",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/flaming_desert"
+        }
+      },
+      {
+        "when": "greenland",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/greenland"
+        }
+      },
+      {
+        "when": "hanging_city",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/hanging_city"
+        }
+      },
+      {
+        "when": "harrowing_harbor",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/harrowing_harbor"
+        }
+      },
+      {
+        "when": "hellkatraz",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/hellkatraz"
+        }
+      },
+      {
+        "when": "line",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/line"
+        }
+      },
+      {
+        "when": "magmatic_seaport!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/magmatic_seaport"
+        }
+      },
+      {
+        "when": "mall!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/mall"
+        }
+      },
+      {
+        "when": "many_mesa_mines!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/many_mesa_mines"
+        }
+      },
+      {
+        "when": "meat_canyon!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/meat_canyon"
+        }
+      },
+      {
+        "when": "meeting_point",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/meeting_point"
+        }
+      },
+      {
+        "when": "mirror_match!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/mirror_match"
+        }
+      },
+      {
+        "when": "mole_hill!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/mole_hill"
+        }
+      },
+      {
+        "when": "mud_oasis!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/mud_oasis"
+        }
+      },
+      {
+        "when": "origin",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/origin"
+        }
+      },
+      {
+        "when": "origin_revamp",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/origin_revamp"
+        }
+      },
+      {
+        "when": "painted_skirmish!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/painted_skirmish"
+        }
+      },
+      {
+        "when": "pale_bridge!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/pale_bridge"
+        }
+      },
+      {
+        "when": "reminisced_battlefield",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/reminisced_battlefield"
+        }
+      },
+      {
+        "when": "riverside!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/riverside"
+        }
+      },
+      {
+        "when": "scorched_spruce!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/scorched_spruce"
+        }
+      },
+      {
+        "when": "scorched_spruce_abridged!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/scorched_spruce_abridged"
+        }
+      },
+      {
+        "when": "stricken_fortress!",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/stricken_fortress"
+        }
+      },
+      {
+        "when": "the_bridge",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/the_bridge"
+        }
+      },
+      {
+        "when": "truffling_slopes",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/truffling_slopes"
+        }
+      },
+      {
+        "when": "vomit",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/vomit"
+        }
+      },
+      {
+        "when": "winter_walls",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/winter_walls"
+        }
+      }
+    ]
+  }
+}

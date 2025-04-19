@@ -1,0 +1,29 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/filled_map",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -1
+        },
+        {
+          "type": "minecraft:map_color",
+          "default": 4603950
+        }
+      ]
+    },
+    "cases": [
+      {
+        "when": "the_bridge",
+        "model": {
+          "type": "model",
+          "model": "item/icon/map/the_bridge"
+        }
+      }
+    ]
+  }
+}
