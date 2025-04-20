@@ -3,7 +3,7 @@ name: Resourcepack Zipper
 on:
   push:
     branches:
-      - master  # Adjust this branch name if needed
+      - main  # Adjust this branch name if needed
     paths:
       - assets/**
       - pack.mcmeta
