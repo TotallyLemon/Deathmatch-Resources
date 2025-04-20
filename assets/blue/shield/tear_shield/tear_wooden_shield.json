@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"parent": "./_tear_shield",
+	"textures": {
+		"0": "./tear_wooden_shield",
+		"1": "./grip_wood_shield",
+		"particle": "./tear_wooden_shield"
+	}
+}

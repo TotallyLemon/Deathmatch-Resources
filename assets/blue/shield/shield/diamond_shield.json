@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"parent": "./_shield",
+	"textures": {
+		"0": "./diamond_shield",
+		"1": "./grip_diamond_shield",
+		"particle": "./diamond_shield"
+	}
+}

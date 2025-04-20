@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"parent": "./_tear_shield_blocking",
+	"textures": {
+		"0": "./tear_diamond_shield",
+		"1": "./grip_diamond_shield",
+		"particle": "./tear_diamond_shield"
+	}
+}

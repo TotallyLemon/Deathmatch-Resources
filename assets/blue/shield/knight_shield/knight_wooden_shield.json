@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"parent": "./_knight_shield",
+	"textures": {
+		"0": "./knight_wooden_shield",
+		"1": "./grip_wood_shield",
+		"particle": "./knight_wooden_shield"
+	}
+}

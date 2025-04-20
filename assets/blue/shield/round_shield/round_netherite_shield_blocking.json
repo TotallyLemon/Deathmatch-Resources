@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"parent": "./_round_shield_blocking",
+	"textures": {
+		"0": "./round_netherite_shield",
+		"1": "./grip_netherite_shield",
+		"particle": "./round_netherite_shield"
+	}
+}

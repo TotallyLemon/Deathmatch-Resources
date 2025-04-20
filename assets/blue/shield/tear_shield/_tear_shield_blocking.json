@@ -1,0 +1,26 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "./_tear_shield",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "./tear_wooden_shield",
+		"1": "./grip_wood_shield",
+		"particle": "./tear_wooden_shield"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [49, 140, -1],
+			"translation": [3.25, 1, -1]
+		},
+		"firstperson_righthand": {
+			"rotation": [11, 171, -6],
+			"translation": [-4.25, -2.25, -6],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"gui": {
+			"translation": [0.25, 2.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"parent": "./_shield",
+	"textures": {
+		"0": "./netherite_shield",
+		"1": "./grip_netherite_shield",
+		"particle": "./netherite_shield"
+	}
+}
