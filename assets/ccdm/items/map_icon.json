@@ -25,7 +25,7 @@
         }
       },
       {
-        "when": "candlelight_library!",
+        "when": "candlelight_library",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/candlelight_library"
