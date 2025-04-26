@@ -88,7 +88,7 @@
         }
       },
       {
-        "when": "doomspires!",
+        "when": "doomspires",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/doomspires"
@@ -186,7 +186,7 @@
         }
       },
       {
-        "when": "mole_hill!",
+        "when": "mole_hill",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/mole_hill"
