@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "ccdm:item/icon/map/meat_canyon"
-  },
-  "gui_light": "front"
-}

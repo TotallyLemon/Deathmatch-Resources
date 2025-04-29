@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "ccdm:item/icon/map/dripstone_chasm"
-  },
-  "gui_light": "front"
-}
