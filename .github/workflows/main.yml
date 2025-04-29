@@ -36,5 +36,4 @@ jobs:
         name: Release ${{ github.sha }}
         files: |
           /tmp/Deathmatch Resources.zip
-          resource-pack-sha1.txt
           
