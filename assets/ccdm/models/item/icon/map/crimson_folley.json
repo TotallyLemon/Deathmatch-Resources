@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ccdm:item/icon/map/crimson_folley"
+  },
+  "gui_light": "front"
+}

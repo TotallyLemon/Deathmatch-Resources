@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ccdm:item/icon/map/candyland"
+  },
+  "gui_light": "front"
+}
