@@ -1,0 +1,78 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "cup:item/blued_battleaxe"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [
+				1.5,
+				1.5,
+				1
+			],
+			"rotation": [
+				0,
+				-90,
+				0
+			],
+			"translation": [
+				0,
+				7,
+				9
+			]
+			
+		},
+		"thirdperson_lefthand": {
+			"scale": [
+				1.5,
+				1.5,
+				1
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			],
+			"translation": [
+				0,
+				7,
+				9
+			]
+			
+		},
+		"firstperson_righthand": {
+			"scale": [
+				1.4,
+				1.4,
+				1
+			],
+			"rotation": [
+				-22.5,
+				-90,
+				0
+			],
+			"translation": [
+				3,
+				3,
+				0
+			]
+		},
+		"firstperson_lefthand": {
+			"scale": [
+				1.4,
+				1.4,
+				1
+			],
+			"rotation": [
+				-22.5,
+				90,
+				0
+			],
+			"translation": [
+				3,
+				3,
+				0
+			]
+		}
+	}
+}
