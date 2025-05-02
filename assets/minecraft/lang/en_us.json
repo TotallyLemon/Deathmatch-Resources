@@ -1,4 +1,6 @@
 {
+  "death.attack.black_flash": "%s was destroyed by %s's black flash",
+  "death.attack.black_flash.item": "%s was destroyed by %s's black flash using %s",
   "death.attack.chipped_shoulder": "%s went into retirement",
   "death.attack.chipped_shoulder.player": "%s went into retirement whilst fighting %s",
   "death.attack.core_rend": "%s's core was removed",
@@ -55,6 +57,7 @@
   "map.the_bridge": "The Bridge",
   "map.vomit": "Vomit",
   "map.winter_walls": "Winter Walls",
+  "perk.anima_bargain": "Anima Bargain",
   "perk.apprentice": "Apprentice",
   "perk.bricklayer": "Bricklayer",
   "perk.cheese_presser": "Cheese Presser",
