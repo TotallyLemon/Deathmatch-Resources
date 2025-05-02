@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "select",
+    "property": "display_context",
+    "cases": [
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand"
+        ],
+        "model": {
+          "type": "empty"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "ccdm:item/ability/fleshweave"
+    }
+  },
+  "hand_animation_on_swap": false
+}
