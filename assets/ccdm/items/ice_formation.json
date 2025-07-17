@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "ccdm:item/ice_formation",
+        "tints": [
+          {
+            "type": "constant",
+            "value": -1
+          },
+          {
+            "type": "constant",
+            "value": -1
+          }
+        ]
+      }
+    ]
+  }
+}
