@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 55,
-    "description": "By TotallyLemon"
+    "pack_format": 64,
+    "description": {"text": "By TotallyLemon"}
   }
 }
