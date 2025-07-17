@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "on_false": {
+      "type": "model",
+      "model": "ccdm:item/blood_pin"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "ccdm:item/blood_pin_used"
+    }
+  }
+}

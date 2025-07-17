@@ -1,0 +1,219 @@
+{
+  "model": {
+    "type": "select",
+    "property": "display_context",
+    "fallback": {
+      "type": "model",
+      "model": "ccdm:item/ability/codex_cryomancer"
+    },
+    "cases": [
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "composite",
+          "models": [
+            {
+              "type": "model",
+              "model": "ccdm:item/ability/codex_cryomancer"
+            },
+            {
+              "type": "range_dispatch",
+              "property": "custom_model_data",
+              "scale": 0.01,
+              "fallback": {
+                "type": "empty"
+              },
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "model",
+                    "model": "ccdm:item/other/mana_bar_13",
+                    "tints": [
+                      {
+                        "type": "constant",
+                        "value": 11534335
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.07692,
+                  "model": {
+                    "type": "model",
+                    "model": "ccdm:item/other/mana_bar_12",
+                    "tints": [
+                      {
+                        "type": "constant",
+                        "value": 10875391
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.1538,
+                  "model": {
+                    "type": "model",
+                    "model": "ccdm:item/other/mana_bar_11",
+                    "tints": [
+                      {
+                        "type": "constant",
+                        "value": 10216447
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.2308,
+                  "model": {
+                    "type": "model",
+                    "model": "ccdm:item/other/mana_bar_10",
+                    "tints": [
+                      {
+                        "type": "constant",
+                        "value": 9557503
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.3077,
+                  "model": {
+                    "type": "model",
+                    "model": "ccdm:item/other/mana_bar_09",
+                    "tints": [
+                      {
+                        "type": "constant",
+                        "value": 8898559
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.3846,
+                  "model": {
+                    "type": "model",
+                    "model": "ccdm:item/other/mana_bar_08",
+                    "tints": [
+                      {
+                        "type": "constant",
+                        "value": 8239615
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.4615,
+                  "model": {
+                    "type": "model",
+                    "model": "ccdm:item/other/mana_bar_07",
+                    "tints": [
+                      {
+                        "type": "constant",
+                        "value": 7580671
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.5385,
+                  "model": {
+                    "type": "model",
+                    "model": "ccdm:item/other/mana_bar_06",
+                    "tints": [
+                      {
+                        "type": "constant",
+                        "value": 6921727
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.6154,
+                  "model": {
+                    "type": "model",
+                    "model": "ccdm:item/other/mana_bar_05",
+                    "tints": [
+                      {
+                        "type": "constant",
+                        "value": 6262783
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.6923,
+                  "model": {
+                    "type": "model",
+                    "model": "ccdm:item/other/mana_bar_04",
+                    "tints": [
+                      {
+                        "type": "constant",
+                        "value": 5603839
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.7692,
+                  "model": {
+                    "type": "model",
+                    "model": "ccdm:item/other/mana_bar_03",
+                    "tints": [
+                      {
+                        "type": "constant",
+                        "value": 4944895
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.8462,
+                  "model": {
+                    "type": "model",
+                    "model": "ccdm:item/other/mana_bar_02",
+                    "tints": [
+                      {
+                        "type": "constant",
+                        "value": 4285951
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.9231,
+                  "model": {
+                    "type": "model",
+                    "model": "ccdm:item/other/mana_bar_01",
+                    "tints": [
+                      {
+                        "type": "constant",
+                        "value": 3627007
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "model",
+                    "model": "ccdm:item/other/mana_bar_00",
+                    "tints": [
+                      {
+                        "type": "constant",
+                        "value": 2838271
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "hand_animation_on_swap": false
+}

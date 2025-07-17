@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "ccdm:item/pickaxe_handle"
+      },
+      {
+        "type": "model",
+        "model": "ccdm:item/pickaxe_head",
+        "tints": [
+          {
+            "type": "custom_model_data",
+            "default": -1
+          }
+        ]
+      }
+    ]
+  }
+}

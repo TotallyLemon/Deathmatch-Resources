@@ -1,0 +1,7 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "layer0": "ccdm:item/other/mana_bar_05"
+  },
+  "gui_light": "front"
+}
