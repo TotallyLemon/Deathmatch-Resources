@@ -1,0 +1,20 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": -1,
+        "\u0009": 106
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "ccdm:font/power_bar/on.png",
+      "ascent": -19,
+      "chars": [
+        "\u2000\u2001\u2002\u2003\u2004"
+      ],
+      "height": 5
+    }
+  ]
+}
