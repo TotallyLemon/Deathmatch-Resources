@@ -242,21 +242,21 @@
         }
       },
       {
-        "when": "scorched_spruce!",
+        "when": "scorched_spruce",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/scorched_spruce"
         }
       },
       {
-        "when": "scorched_spruce_abridged!",
+        "when": "scorched_spruce_abridged",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/scorched_spruce_abridged"
         }
       },
       {
-        "when": "stricken_fortress!",
+        "when": "stricken_fortress",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/stricken_fortress"
