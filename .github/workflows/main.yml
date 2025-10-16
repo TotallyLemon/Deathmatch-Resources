@@ -20,13 +20,13 @@ jobs:
       with:
         fetch-depth: 0 # A non-shallow repository clone is required
 
-    - name: Run PackSquash
-      uses: ComunidadAylas/PackSquash-action@v4
-      with:
-        packsquash_version: latest # Uses the latest PackSquash release supported by the action
-        options: |
-          pack_directory = '.'
-          output_file_path = '/tmp/Deathmatch Resources.zip'
+    # - name: Run PackSquash
+    #   uses: ComunidadAylas/PackSquash-action@v4
+    #   with:
+    #     packsquash_version: latest # Uses the latest PackSquash release supported by the action
+    #     options: |
+    #       pack_directory = '.'
+    #       output_file_path = '/tmp/Deathmatch Resources.zip'
           
     - name: Create release
       uses: softprops/action-gh-release@v2
