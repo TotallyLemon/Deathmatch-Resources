@@ -29,6 +29,7 @@ jobs:
           output_file_path = '/tmp/Deathmatch Resources.zip'
           validate_pack_metadata_file = false
           automatic_asset_types_mask_detection = false
+          automatic_minecraft_quirks_detection = false
           
     - name: Create release
       uses: softprops/action-gh-release@v2
