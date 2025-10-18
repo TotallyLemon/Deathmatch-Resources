@@ -207,6 +207,13 @@
         }
       },
       {
+        "when": "overgrown_ruins",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/overgrown_ruins"
+        }
+      },
+      {
         "when": "origin_revamp",
         "model": {
           "type": "model",
