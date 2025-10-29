@@ -221,7 +221,7 @@
         }
       },
       {
-        "when": "painted_skirmish!",
+        "when": "painted_skirmish",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/painted_skirmish"
