@@ -179,7 +179,7 @@
         }
       },
       {
-        "when": "mirror_match!",
+        "when": "mirror_match",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/mirror_match"
