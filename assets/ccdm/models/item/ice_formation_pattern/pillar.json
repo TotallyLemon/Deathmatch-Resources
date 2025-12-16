@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ccdm:item/ice_formation_pattern/pillar"
+  }
+}
