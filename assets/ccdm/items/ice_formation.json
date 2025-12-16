@@ -4,15 +4,35 @@
     "models": [
       {
         "type": "minecraft:model",
-        "model": "ccdm:item/ice_formation",
-        "tints": [
+        "model": "ccdm:item/ice_formation"
+      },
+      {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+          "type": "empty"
+        },
+        "cases": [
           {
-            "type": "constant",
-            "value": -1
+            "model": {
+              "type": "model",
+              "model": "ccdm:item/ice_formation_pattern/wall"
+            },
+            "when": "wall"
           },
           {
-            "type": "constant",
-            "value": -1
+            "model": {
+              "type": "model",
+              "model": "ccdm:item/ice_formation_pattern/pillar"
+            },
+            "when": "pillar"
+          },
+          {
+            "model": {
+              "type": "model",
+              "model": "ccdm:item/ice_formation_pattern/cube"
+            },
+            "when": "cube"
           }
         ]
       }
