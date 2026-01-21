@@ -1,0 +1,7 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "layer0": "ccdm:item/chamber/3"
+  },
+  "gui_light": "front"
+}
