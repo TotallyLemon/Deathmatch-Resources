@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "ccdm:item/sword_handle"
+      },
+      {
+        "type": "model",
+        "model": "ccdm:item/sword_head",
+        "tints": [
+          {
+            "type": "custom_model_data",
+            "default": -1
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "model": "ccdm:item/gunblade_core",
+        "tints": [
+          {
+            "type": "custom_model_data",
+            "default": -1,
+            "index": 1
+          }
+        ]
+      }
+    ]
+  },
+  "hand_animation_on_swap": false
+}
