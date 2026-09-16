@@ -11,7 +11,7 @@
           "value": -1
         },
         {
-          "type": "minecraft:map_color",
+          "type": "minecraft:custom_model_data",
           "default": 4603950
         }
       ]
