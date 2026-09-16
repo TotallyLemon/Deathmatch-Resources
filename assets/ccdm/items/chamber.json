@@ -8,7 +8,7 @@
           "models": [
             {
               "type": "model",
-              "model": "item/crossbow_arrow"
+              "model": "ccdm:item/crossbow_body"
             },
             {
               "type": "model",
@@ -156,13 +156,6 @@
           ]
         },
         "when": "arrow"
-      },
-      {
-        "model": {
-          "type": "model",
-          "model": "item/crossbow_firework"
-        },
-        "when": "rocket"
       }
     ],
     "fallback": {
