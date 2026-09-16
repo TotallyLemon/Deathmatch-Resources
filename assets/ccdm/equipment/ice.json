@@ -1,0 +1,29 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "ccdm:ice"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "ccdm:ice"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "ccdm:ice"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "ccdm:ice"
+      }
+    ],
+    "nautilus_body": [
+      {
+        "texture": "ccdm:ice"
+      }
+    ]
+  }
+}
