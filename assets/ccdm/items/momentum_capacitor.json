@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "damage",
+    "fallback": {
+      "type": "model",
+      "model": "ccdm:item/momentum_capacitor"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/momentum_capacitor"
+        },
+        "threshold": 0
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/momentum_capacitor_spent"
+        },
+        "threshold": 0.95
+      }
+    ]
+  }
+}
