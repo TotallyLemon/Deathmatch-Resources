@@ -1,0 +1,35 @@
+name: Draft Release
+
+on:
+  push:
+    tags:
+      - '*'
+      - '*/*'
+    branches:
+      - main  # Adjust this branch name if needed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions: 
+      contents: write
+    steps:
+    - uses: actions/checkout@v6
+    - name: Archive Release
+      uses: thedoctor0/zip-release@0.7.5
+      with:
+        type: 'zip'
+        filename: 'Deathmatch Resources.zip'
+        exclusions: '*.git* README.md'
+          
+    - name: Create release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "Deathmatch Resources.zip"
+        artifactErrorsFailBuild: true
+        allowUpdates: true
+        draft: true
+        generateReleaseNotes: true
+        updateOnlyUnreleased: true
+        replacesArtifacts: true
+          
