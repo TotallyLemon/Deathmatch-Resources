@@ -4,13 +4,9 @@ on:
   push:
     tags:
       - '*'
+      - '*/*'
     branches:
       - main  # Adjust this branch name if needed
-    paths:
-      - assets/**
-      - pack.mcmeta
-      - pack.png
-  workflow_dispatch:
 
 jobs:
   build:
@@ -35,4 +31,5 @@ jobs:
         draft: true
         generateReleaseNotes: true
         updateOnlyUnreleased: true
+        replacesArtifacts: true
           
