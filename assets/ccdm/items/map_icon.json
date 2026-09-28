@@ -277,6 +277,13 @@
         }
       },
       {
+        "when": "temptation",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/temptation"
+        }
+      },
+      {
         "when": "the_wall",
         "model": {
           "type": "model",
