@@ -1,10 +1,14 @@
 name: Draft Release
 
 on:
+  workflow_dispatch: 
   push:
-    tags:
-      - '*'
-      - '*/*'
+    branches:
+      - main
+    paths:
+      - assets/*
+      - pack.mcmeta
+      - pack.png
 
 jobs:
   build:
@@ -27,6 +31,7 @@ jobs:
         artifactErrorsFailBuild: true
         allowUpdates: true
         draft: true
+        tag: "temp"
         generateReleaseNotes: true
         updateOnlyUnreleased: true
         replacesArtifacts: true
