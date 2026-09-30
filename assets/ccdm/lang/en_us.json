@@ -173,6 +173,7 @@
   "perk_description.core_thief": "Core Thief",
   "perk_description.crumbling_heretic": "When you kill a player lose 1 life (ignores life shielding) then gain 1 crumbling token. For each crumbling token, you have +2 max health, +0.2 attack damage, +0.4 mining speed, and +0.002 movement speed.",
   "perk_description.curio": "Curio",
+  "perk_description.dancing_blade": "Your main weapon has +20%% attack damage and +20%% attack speed, on hit it swaps places with one of the first 4 slots of your hotbar.",
   "perk_description.dark_twilight": "Upon sudden death, spawns a wither at your location. If you are eliminated, instead spawns it at the location of a random alive player.",
   "perk_description.demon_blade": "Demon's Blade",
   "perk_description.devotee": "When you die, your enemy killer gains slowness 2 and mining fatigue 2 for 6s; Allies within 8m gain regeneration 2 and resistance for 6s",
