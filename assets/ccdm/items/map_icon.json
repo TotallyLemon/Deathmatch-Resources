@@ -4,15 +4,15 @@
     "property": "custom_model_data",
     "fallback": {
       "type": "model",
-      "model": "item/filled_map",
+      "model": "ccdm:item/map_icon",
       "tints": [
         {
-          "type": "minecraft:constant",
-          "value": -1
+          "type": "custom_model_data",
+          "default": -1
         },
         {
-          "type": "minecraft:custom_model_data",
-          "default": 4603950
+          "type": "constant",
+          "value": -1
         }
       ]
     },
@@ -60,14 +60,14 @@
         }
       },
       {
-        "when": "crimson_folley!",
+        "when": "!crimson_folley",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/crimson_folley"
         }
       },
       {
-        "when": "crossbow_isles!",
+        "when": "!crossbow_isles",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/crossbow_isles"
@@ -144,28 +144,28 @@
         }
       },
       {
-        "when": "magmatic_seaport!",
+        "when": "!magmatic_seaport",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/magmatic_seaport"
         }
       },
       {
-        "when": "mall!",
+        "when": "!mall",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/mall"
         }
       },
       {
-        "when": "many_mesa_mines!",
+        "when": "!many_mesa_mines",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/many_mesa_mines"
         }
       },
       {
-        "when": "meat_canyon!",
+        "when": "!meat_canyon",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/meat_canyon"
@@ -193,7 +193,7 @@
         }
       },
       {
-        "when": "mud_oasis!",
+        "when": "!mud_oasis",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/mud_oasis"
@@ -242,7 +242,7 @@
         }
       },
       {
-        "when": "riverside!",
+        "when": "!riverside",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/riverside"
@@ -277,7 +277,7 @@
         }
       },
       {
-        "when": "temptation",
+        "when": "!temptation",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/temptation"
