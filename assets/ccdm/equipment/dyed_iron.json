@@ -1,0 +1,52 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "dyeable": {
+          "color_when_undyed": -1
+        },
+        "texture": "iron"
+      }
+    ],
+    "humanoid": [
+      {
+        "dyeable": {
+          "color_when_undyed": -1
+        },
+        "texture": "iron"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "dyeable": {
+          "color_when_undyed": -1
+        },
+        "texture": "iron"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "dyeable": {
+          "color_when_undyed": -1
+        },
+        "texture": "iron"
+      }
+    ],
+    "nautilus_body": [
+      {
+        "dyeable": {
+          "color_when_undyed": -1
+        },
+        "texture": "iron"
+      }
+    ]
+  },
+  "trim_overrides": [
+    {
+      "palette": "trim/iron_darker",
+      "when": {
+        "material": "iron"
+      }
+    }
+  ]
+}
