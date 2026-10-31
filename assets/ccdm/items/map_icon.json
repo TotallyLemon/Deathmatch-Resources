@@ -123,6 +123,13 @@
         }
       },
       {
+        "when": "hanging_city_revamp",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/hanging_city_revamp"
+        }
+      },
+      {
         "when": "harrowing_harbor",
         "model": {
           "type": "model",
@@ -193,7 +200,7 @@
         }
       },
       {
-        "when": "!mud_oasis",
+        "when": "mud_oasis",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/mud_oasis"
@@ -242,7 +249,7 @@
         }
       },
       {
-        "when": "!riverside",
+        "when": "riverside",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/riverside"
