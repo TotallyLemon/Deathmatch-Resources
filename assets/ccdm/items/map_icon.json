@@ -109,6 +109,13 @@
         }
       },
       {
+        "when": "fortified_isles",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/fortified_isles"
+        }
+      },
+      {
         "when": "greenland",
         "model": {
           "type": "model",
