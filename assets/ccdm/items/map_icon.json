@@ -109,6 +109,13 @@
         }
       },
       {
+        "when": "fortified_isles",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/fortified_isles"
+        }
+      },
+      {
         "when": "greenland",
         "model": {
           "type": "model",
@@ -120,6 +127,13 @@
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/hanging_city"
+        }
+      },
+      {
+        "when": "hanging_city_revamp",
+        "model": {
+          "type": "model",
+          "model": "ccdm:item/icon/map/hanging_city_revamp"
         }
       },
       {
@@ -193,7 +207,7 @@
         }
       },
       {
-        "when": "!mud_oasis",
+        "when": "mud_oasis",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/mud_oasis"
@@ -242,7 +256,7 @@
         }
       },
       {
-        "when": "!riverside",
+        "when": "riverside",
         "model": {
           "type": "model",
           "model": "ccdm:item/icon/map/riverside"
